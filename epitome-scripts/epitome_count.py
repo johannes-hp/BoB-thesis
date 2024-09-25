@@ -34,7 +34,7 @@ pattern = '\d+'
 # selects the parent directory and then moves into the epitomes folder
 path = os.path.join( os.path.dirname ( __file__), os.path.pardir, 'epitomes')
 
-epitome_numbers = [int(re.search(pattern, file).group()) for file in os.listdir(path)]
+epitome_numbers = [int(re.search(pattern, file).group()) for file in sorted(os.listdir(path))]
 
 print(f'{len(epitome_numbers)} have been transcribed. That is {len(epitome_numbers)/2191*100:.2f} percent of the 2191 total epitomes.')
 
