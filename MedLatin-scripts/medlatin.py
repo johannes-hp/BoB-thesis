@@ -1,7 +1,10 @@
 import os
 import cltk
+import numpy as np
 from tqdm.notebook import tqdm
 from collections import Counter
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import KMeans
 
 def load_medlatin(path: str) -> tuple[list[str], list[str], list[str]]:
     """
@@ -105,3 +108,83 @@ def combine_pos_most_common_tokens(tokens_list: list[list[str]],
         combined_pos_common_tokens.append(pos_common_tokens)
 
     return combined_pos_common_tokens
+
+def word_tfidf(combined_pos_tokens: list[list[str]], ngrams=2, max_feats=100):
+
+    """
+    Takes a list of lists with tokens and POS-tags combined (see 
+    medlatin.combine_pos_most_common_tokens). Runs sklearn's word based TF-IDF 
+    on those lists and returns a matrix of the shape (len(combined_pos_tokens), max_feats).
+    """
+
+    # turns the list of lists into a list of strings, which the tfidf object can work on
+    combined_pos_tokens_joined = [' '.join(combined_list) for combined_list in combined_pos_tokens]
+
+    tfidf_word = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='word')
+
+    pos_tokens_tfidf = tfidf_word.fit_transform(combined_pos_tokens_joined)
+
+    return pos_tokens_tfidf
+
+def char_tfidf(tokens: list[list[str]], ngrams=2, max_feats=100):
+
+    """
+    Takes a list of lists with tokens and POS-tags combined (see 
+    medlatin.combine_pos_most_common_tokens). Runs sklearn's character based TF-IDF 
+    on those lists and returns a matrix of the shape (len(tokens), max_feats).
+    """
+
+    # turns the list of lists into a list of strings which the tfidf object can work on
+    tokens_joined = [' '.join(token_list) for token_list in tokens]
+
+    tfidf_char = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='char')
+
+    char_tfidf = tfidf_char.fit_transform(tokens_joined)
+
+    return char_tfidf
+
+def repeat_kmeans(style_vector, clusters: int, repeats=100):
+
+    """
+    Takes a style_vector matrix (see medlatin.word_tfidf, char_tfidf or the mean emb_list)
+    and repeats kmeans on it a number of times (default=100). Clusters should correspond 
+    to the number of assumed authors/writing styles. Returns a matrix with cluster labels
+    of the shape (repeats, len(style_vector)). 
+    """
+    
+    kmeans_repeated = []
+
+    for _ in range(repeats):
+        kmeans = KMeans(n_clusters=clusters, n_init='auto').fit(style_vector)
+        kmeans_repeated.append(kmeans.labels_)
+
+    kmeans_repeated = np.array(kmeans_repeated)
+
+    return kmeans_repeated
+
+def concordance_heatmap(repeated_kmeans):
+
+    """
+    Takes a repeated_kmeans matrix (see medlatin.repeat_kmeans) and calculates concordance rates
+    between all instances - the concordance rate is a measure of how often two instances end in the
+    same cluster. Returns a matrix with concordance rates of the shape (repeated_kmeans.shape[1], 
+    repeated_kmeans.shape[1]). 
+    """
+
+    concordances_heatmap = []
+
+    for epi_idx in range(repeated_kmeans.shape[1]):
+        concordances = []
+
+
+        for epi_jdx in range(repeated_kmeans.shape[1]):
+            # to calculate the concordance rate we take all cluster labels for the text at epi_idx and compare to the labels
+            # for the text at epi_jdx - if the first is [1, 1, 2] and the second is [1, 0, 2], then the concordance is [1, 0, 1]
+            # the ones represent that they have the same cluster at that position, while 0 means different cluster labels
+            # finally the concordance rate is 0.67, which we calculate by taking the mean of the concordance
+            concordance = sum(repeated_kmeans[:, epi_idx] == repeated_kmeans[:, epi_jdx])/repeated_kmeans.shape[0]
+            concordances.append(concordance)
+
+        concordances_heatmap.append(concordances)
+
+    return concordances_heatmap
