@@ -120,7 +120,7 @@ def word_tfidf(combined_pos_tokens: list[list[str]], ngrams=2, max_feats=100):
     # turns the list of lists into a list of strings, which the tfidf object can work on
     combined_pos_tokens_joined = [' '.join(combined_list) for combined_list in combined_pos_tokens]
 
-    tfidf_word = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='word')
+    tfidf_word = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='word', sublinear_tf=True)
 
     pos_tokens_tfidf = tfidf_word.fit_transform(combined_pos_tokens_joined)
 
@@ -137,7 +137,7 @@ def char_tfidf(tokens: list[list[str]], ngrams=2, max_feats=100):
     # turns the list of lists into a list of strings which the tfidf object can work on
     tokens_joined = [' '.join(token_list) for token_list in tokens]
 
-    tfidf_char = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='char')
+    tfidf_char = TfidfVectorizer(ngram_range=(ngrams, ngrams), max_features=max_feats, analyzer='char', sublinear_tf=True)
 
     char_tfidf = tfidf_char.fit_transform(tokens_joined)
 
