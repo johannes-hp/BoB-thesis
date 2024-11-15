@@ -123,3 +123,49 @@ def char_tfidf(tokens: list[list[str]], ngrams=2, max_feats=100):
     char_tfidf = tfidf_char.fit_transform(tokens_joined)
 
     return char_tfidf
+
+def repeat_kmeans(style_vector, clusters: int, repeats=100):
+
+    """
+    Takes a style_vector matrix (see medlatin.word_tfidf, char_tfidf or the mean emb_list)
+    and repeats kmeans on it a number of times (default=100). Clusters should correspond 
+    to the number of assumed authors/writing styles. Returns a matrix with cluster labels
+    of the shape (repeats, len(style_vector)). 
+    """
+    
+    kmeans_repeated = []
+
+    for _ in range(repeats):
+        kmeans = KMeans(n_clusters=clusters, n_init='auto').fit(style_vector)
+        kmeans_repeated.append(kmeans.labels_)
+
+    kmeans_repeated = np.array(kmeans_repeated)
+
+    return kmeans_repeated
+
+def concordance_heatmap(repeated_kmeans):
+
+    """
+    Takes a repeated_kmeans matrix (see medlatin.repeat_kmeans) and calculates concordance rates
+    between all instances - the concordance rate is a measure of how often two instances end in the
+    same cluster. Returns a matrix with concordance rates of the shape (repeated_kmeans.shape[1], 
+    repeated_kmeans.shape[1]). 
+    """
+
+    concordances_heatmap = []
+
+    for epi_idx in range(repeated_kmeans.shape[1]):
+        concordances = []
+
+
+        for epi_jdx in range(repeated_kmeans.shape[1]):
+            # to calculate the concordance rate we take all cluster labels for the text at epi_idx and compare to the labels
+            # for the text at epi_jdx - if the first is [1, 1, 2] and the second is [1, 0, 2], then the concordance is [1, 0, 1]
+            # the ones represent that they have the same cluster at that position, while 0 means different cluster labels
+            # finally the concordance rate is 0.67, which we calculate by taking the mean of the concordance
+            concordance = sum(repeated_kmeans[:, epi_idx] == repeated_kmeans[:, epi_jdx])/repeated_kmeans.shape[0]
+            concordances.append(concordance)
+
+        concordances_heatmap.append(concordances)
+
+    return concordances_heatmap
