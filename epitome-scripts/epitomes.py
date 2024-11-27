@@ -96,6 +96,7 @@ def word_tfidf(combined_pos_tokens: list[list[str]], ngrams=2, max_feats=100):
     Takes a list of lists with tokens and POS-tags combined (see
     medlatin.combine_pos_most_common_tokens). Runs sklearn's word based TF-IDF
     on those lists and returns a matrix of the shape (len(combined_pos_tokens), max_feats).
+    Also returns a list of feature names.
     """
 
     # turns the list of lists into a list of strings, which the tfidf object can work on
@@ -105,14 +106,15 @@ def word_tfidf(combined_pos_tokens: list[list[str]], ngrams=2, max_feats=100):
 
     pos_tokens_tfidf = tfidf_word.fit_transform(combined_pos_tokens_joined)
 
-    return pos_tokens_tfidf
+    return pos_tokens_tfidf, tfidf_word.get_feature_names_out()
 
 def char_tfidf(tokens: list[list[str]], ngrams=2, max_feats=100):
 
     """
     Takes a list of lists with tokens and POS-tags combined (see
     medlatin.combine_pos_most_common_tokens). Runs sklearn's character based TF-IDF
-    on those lists and returns a matrix of the shape (len(tokens), max_feats).
+    on those lists and returns a matrix of the shape (len(tokens), max_feats). Also returns
+    a list of feature names.
     """
 
     # turns the list of lists into a list of strings which the tfidf object can work on
@@ -122,7 +124,7 @@ def char_tfidf(tokens: list[list[str]], ngrams=2, max_feats=100):
 
     char_tfidf = tfidf_char.fit_transform(tokens_joined)
 
-    return char_tfidf
+    return char_tfidf, tfidf_char.get_feature_names_out() 
 
 def repeat_kmeans(style_vector, clusters: int, repeats=100):
 
