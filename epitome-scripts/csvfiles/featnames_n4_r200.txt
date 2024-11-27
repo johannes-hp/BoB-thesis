@@ -1,0 +1,400 @@
+ad noun noun verb
+adj adj noun noun
+adj adj noun verb
+adj adv noun verb
+adj et adj noun
+adj noun adj noun
+adj noun adj verb
+adj noun adv verb
+adj noun atque noun
+adj noun et noun
+adj noun noun adj
+adj noun noun adv
+adj noun noun et
+adj noun noun noun
+adj noun noun verb
+adj noun verb adj
+adj noun verb adv
+adj noun verb in
+adj noun verb noun
+adj noun verb qui
+adj noun verb sum
+adj noun verb verb
+adj verb noun noun
+adj verb noun verb
+adp adj noun noun
+adp noun noun noun
+adp noun noun verb
+adv adj noun noun
+adv adj noun verb
+adv noun noun noun
+adv noun noun verb
+adv noun verb noun
+adv noun verb verb
+adv verb noun noun
+adv verb noun verb
+de noun adj noun
+de noun de noun
+de noun et noun
+de noun noun et
+de noun noun noun
+de noun noun verb
+det adj noun verb
+det noun noun noun
+det noun noun verb
+det noun verb noun
+det noun verb verb
+et adj noun noun
+et noun adj noun
+et noun atque noun
+et noun noun noun
+et noun noun verb
+in adj noun noun
+in adj noun verb
+in noun adj noun
+in noun noun verb
+in noun verb verb
+noun adj adj noun
+noun adj adp adj
+noun adj adv noun
+noun adj adv verb
+noun adj et adj
+noun adj et noun
+noun adj noun adj
+noun adj noun et
+noun adj noun noun
+noun adj noun verb
+noun adj verb noun
+noun adj verb verb
+noun adp noun noun
+noun adp noun verb
+noun adv adj noun
+noun adv adv verb
+noun adv noun noun
+noun adv noun verb
+noun adv verb adv
+noun adv verb noun
+noun adv verb verb
+noun atque adj noun
+noun atque noun noun
+noun atque noun verb
+noun cconj noun noun
+noun cconj noun verb
+noun de noun adj
+noun de noun de
+noun de noun et
+noun de noun noun
+noun det noun noun
+noun det noun verb
+noun et adj noun
+noun et de noun
+noun et noun adj
+noun et noun adv
+noun et noun atque
+noun et noun det
+noun et noun noun
+noun et noun verb
+noun in adj noun
+noun in noun noun
+noun in noun verb
+noun noun ad noun
+noun noun adj noun
+noun noun adj verb
+noun noun adp noun
+noun noun adv noun
+noun noun adv verb
+noun noun atque noun
+noun noun cconj noun
+noun noun de noun
+noun noun det noun
+noun noun et adj
+noun noun et noun
+noun noun in adj
+noun noun in noun
+noun noun in qui
+noun noun noun adj
+noun noun noun adv
+noun noun noun atque
+noun noun noun et
+noun noun noun noun
+noun noun noun verb
+noun noun qui noun
+noun noun verb adj
+noun noun verb adp
+noun noun verb adv
+noun noun verb cconj
+noun noun verb det
+noun noun verb et
+noun noun verb in
+noun noun verb noun
+noun noun verb qui
+noun noun verb sum
+noun noun verb verb
+noun qui noun noun
+noun qui noun verb
+noun verb adj noun
+noun verb adj verb
+noun verb adp noun
+noun verb adv adj
+noun verb adv adv
+noun verb adv noun
+noun verb adv verb
+noun verb de noun
+noun verb det noun
+noun verb et noun
+noun verb in adj
+noun verb in noun
+noun verb in qui
+noun verb noun adj
+noun verb noun adv
+noun verb noun et
+noun verb noun noun
+noun verb noun qui
+noun verb noun verb
+noun verb qui noun
+noun verb sum noun
+noun verb sum verb
+noun verb verb adj
+noun verb verb adv
+noun verb verb et
+noun verb verb in
+noun verb verb noun
+noun verb verb que
+noun verb verb verb
+propn adj noun noun
+propn noun noun noun
+propn propn noun adj
+propn propn noun noun
+propn propn propn noun
+propn propn propn propn
+qui noun noun verb
+qui noun verb noun
+verb adj noun noun
+verb adj noun verb
+verb adp noun noun
+verb adv adj noun
+verb adv adv verb
+verb adv noun noun
+verb adv verb noun
+verb de noun noun
+verb det noun noun
+verb in adj noun
+verb in noun noun
+verb noun adj noun
+verb noun adj verb
+verb noun adv noun
+verb noun adv verb
+verb noun et noun
+verb noun noun adj
+verb noun noun adv
+verb noun noun et
+verb noun noun noun
+verb noun noun verb
+verb noun verb adv
+verb noun verb noun
+verb noun verb verb
+verb qui noun noun
+verb verb adv noun
+verb verb adv verb
+verb verb noun noun
+verb verb noun verb
+ ab 
+ ad 
+ ali
+ atq
+ aut
+ com
+ con
+ cum
+ de 
+ dis
+ doc
+ et 
+ ex 
+ hic
+ in 
+ ins
+ int
+ is 
+ lib
+ non
+ omn
+ par
+ per
+ pos
+ pra
+ pre
+ pri
+ pro
+ qua
+ que
+ qui
+ quo
+ res
+ sum
+ suu
+ uer
+ ut 
+a qu
+alis
+aliu
+anus
+ariu
+atio
+atqu
+atus
+beo 
+ber 
+ceo 
+cio 
+cons
+crib
+ctus
+cum 
+cus 
+dam 
+dem 
+deo 
+doce
+dus 
+endo
+enti
+entu
+ero 
+et q
+eus 
+hic 
+iber
+ibo 
+ico 
+icus
+idam
+idem
+imus
+in q
+inte
+inus
+io a
+io e
+io i
+io q
+io s
+ior 
+is a
+is e
+is i
+is p
+is q
+is s
+itas
+iter
+itio
+ium 
+ius 
+libe
+lis 
+lius
+llus
+lum 
+lus 
+m de
+m in
+m qu
+m su
+men 
+ment
+mnis
+mus 
+n qu
+ndo 
+ndus
+nis 
+non 
+nter
+ntia
+ntum
+nus 
+o co
+o de
+o et
+o in
+o pr
+o qu
+o su
+oceo
+omni
+per 
+poss
+post
+prae
+prim
+pus 
+quam
+que 
+qui 
+quid
+quis
+r qu
+rati
+ria 
+ribo
+rimu
+rius
+rus 
+s ad
+s at
+s co
+s de
+s di
+s et
+s in
+s no
+s pr
+s qu
+s re
+s se
+s su
+scri
+simu
+sum 
+sus 
+suus
+t qu
+tas 
+tem 
+ter 
+tia 
+tio 
+tor 
+tque
+tum 
+tus 
+uam 
+ui i
+uida
+uis 
+ulus
+um a
+um c
+um d
+um e
+um i
+um p
+um q
+um s
+um u
+us a
+us c
+us d
+us e
+us i
+us l
+us m
+us n
+us p
+us q
+us r
+us s
+us t
+us u
+uus 

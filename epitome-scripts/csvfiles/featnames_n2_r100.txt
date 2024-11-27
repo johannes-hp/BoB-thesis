@@ -1,0 +1,200 @@
+ab noun
+ad noun
+adj adj
+adj adp
+adj adv
+adj det
+adj et
+adj in
+adj noun
+adj sum
+adj verb
+adp adj
+adp noun
+adv adj
+adv adv
+adv det
+adv in
+adv noun
+adv verb
+atque adj
+atque noun
+cconj noun
+de noun
+det adj
+det adv
+det noun
+det verb
+et adj
+et adv
+et det
+et noun
+hic noun
+in adj
+in det
+in is
+in noun
+in qui
+is noun
+is qui
+is verb
+non verb
+noun ab
+noun ad
+noun adj
+noun adp
+noun adv
+noun atque
+noun cconj
+noun de
+noun det
+noun et
+noun in
+noun is
+noun non
+noun noun
+noun propn
+noun que
+noun qui
+noun quidam
+noun sconj
+noun sum
+noun suus
+noun verb
+num noun
+part noun
+pron verb
+propn adj
+propn noun
+propn propn
+propn verb
+que noun
+qui adj
+qui adv
+qui noun
+qui verb
+sconj noun
+sum adj
+sum noun
+sum verb
+suus noun
+verb ad
+verb adj
+verb adp
+verb adv
+verb atque
+verb cconj
+verb de
+verb det
+verb et
+verb in
+verb is
+verb noun
+verb pron
+verb propn
+verb que
+verb qui
+verb sconj
+verb sum
+verb ut
+verb verb
+ a
+ c
+ d
+ e
+ f
+ h
+ i
+ l
+ m
+ n
+ o
+ p
+ q
+ r
+ s
+ t
+ u
+a 
+ad
+al
+am
+an
+ar
+as
+at
+ce
+ci
+co
+ct
+cu
+de
+di
+do
+du
+e 
+ec
+em
+en
+eo
+er
+es
+et
+ex
+hi
+i 
+ia
+ic
+il
+im
+in
+io
+is
+it
+iu
+le
+li
+lu
+m 
+me
+mo
+mu
+n 
+nd
+ni
+no
+nt
+nu
+o 
+om
+on
+or
+os
+pe
+po
+pr
+qu
+r 
+ra
+re
+ri
+ro
+s 
+se
+si
+st
+su
+t 
+ta
+te
+ti
+to
+tu
+ua
+ue
+ui
+ul
+um
+uo
+us
+ut

@@ -1,0 +1,400 @@
+ab adj
+ab noun
+ab propn
+ad adj
+ad noun
+adj adj
+adj adp
+adj adv
+adj atque
+adj cconj
+adj de
+adj det
+adj et
+adj in
+adj noun
+adj part
+adj propn
+adj que
+adj qui
+adj sum
+adj verb
+adp adj
+adp det
+adp hic
+adp is
+adp noun
+adp propn
+adp qui
+adp verb
+adv ad
+adv adj
+adv adp
+adv adv
+adv cum
+adv de
+adv det
+adv et
+adv in
+adv is
+adv noun
+adv propn
+adv sum
+adv verb
+atque adj
+atque adv
+atque noun
+atque verb
+cconj adj
+cconj adv
+cconj det
+cconj noun
+cconj verb
+cum noun
+de adj
+de noun
+det adj
+det adv
+det det
+det noun
+det que
+det qui
+det sum
+det verb
+et adj
+et adp
+et adv
+et de
+et det
+et hic
+et noun
+et propn
+et qui
+et verb
+ex adj
+ex noun
+hic adv
+hic noun
+hic verb
+in adj
+in det
+in hic
+in is
+in noun
+in num
+in propn
+in qui
+in verb
+is adv
+is noun
+is qui
+is verb
+non adj
+non adv
+non verb
+noun ab
+noun ad
+noun adj
+noun adp
+noun adv
+noun atque
+noun cconj
+noun cum
+noun de
+noun det
+noun et
+noun ex
+noun hic
+noun in
+noun is
+noun non
+noun noun
+noun num
+noun part
+noun pron
+noun propn
+noun quam
+noun que
+noun qui
+noun quidam
+noun sconj
+noun sui
+noun sum
+noun suus
+noun ut
+noun verb
+num noun
+num verb
+part noun
+part verb
+possum verb
+pron noun
+pron sum
+pron verb
+propn adj
+propn adv
+propn de
+propn et
+propn noun
+propn propn
+propn verb
+que adj
+que adv
+que noun
+que verb
+qui adj
+qui adp
+qui adv
+qui det
+qui in
+qui noun
+qui propn
+qui sum
+qui verb
+quidam noun
+quidam verb
+sconj adj
+sconj adv
+sconj noun
+sconj verb
+sui verb
+sum adj
+sum adv
+sum det
+sum in
+sum noun
+sum verb
+suus noun
+suus verb
+ut adv
+ut noun
+ut verb
+verb ab
+verb ad
+verb adj
+verb adp
+verb adv
+verb atque
+verb cconj
+verb cum
+verb de
+verb det
+verb et
+verb ex
+verb hic
+verb in
+verb is
+verb non
+verb noun
+verb num
+verb part
+verb possum
+verb pron
+verb propn
+verb quam
+verb que
+verb qui
+verb sconj
+verb sum
+verb ut
+verb verb
+ a
+ b
+ c
+ d
+ e
+ f
+ g
+ h
+ i
+ l
+ m
+ n
+ o
+ p
+ q
+ r
+ s
+ t
+ u
+a 
+ab
+ac
+ad
+ae
+ag
+al
+am
+an
+ap
+ar
+as
+at
+au
+b 
+be
+bi
+bo
+bu
+c 
+ca
+cc
+ce
+ch
+ci
+cl
+co
+cr
+ct
+cu
+d 
+da
+de
+di
+do
+du
+e 
+ec
+ed
+ef
+eg
+el
+em
+en
+eo
+ep
+eq
+er
+es
+et
+eu
+ex
+fa
+fe
+ff
+fi
+ge
+gi
+gn
+go
+gr
+gu
+ha
+he
+hi
+ho
+i 
+ia
+ib
+ic
+id
+ie
+if
+ig
+il
+im
+in
+io
+ip
+ir
+is
+it
+iu
+l 
+la
+le
+li
+ll
+lo
+lt
+lu
+m 
+ma
+me
+mi
+mm
+mn
+mo
+mp
+mu
+n 
+na
+nc
+nd
+ne
+ng
+ni
+nn
+no
+ns
+nt
+nu
+o 
+ob
+oc
+od
+og
+ol
+om
+on
+op
+or
+os
+ot
+pa
+pe
+ph
+pi
+pl
+po
+pr
+pt
+pu
+qu
+r 
+ra
+rc
+rd
+re
+ri
+rm
+ro
+rr
+rs
+rt
+ru
+s 
+sa
+sc
+se
+si
+so
+sp
+ss
+st
+su
+t 
+ta
+te
+th
+ti
+to
+tq
+tr
+tu
+ua
+ub
+uc
+ud
+ue
+ui
+ul
+um
+un
+uo
+up
+ur
+us
+ut
+uu
+x 

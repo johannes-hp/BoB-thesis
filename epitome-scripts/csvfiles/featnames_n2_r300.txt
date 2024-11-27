@@ -1,0 +1,600 @@
+ab adj
+ab det
+ab is
+ab noun
+ab propn
+ad adj
+ad det
+ad hic
+ad is
+ad noun
+ad propn
+ad verb
+adj ab
+adj ad
+adj adj
+adj adp
+adj adv
+adj atque
+adj cconj
+adj de
+adj det
+adj et
+adj hic
+adj in
+adj is
+adj non
+adj noun
+adj num
+adj part
+adj pron
+adj propn
+adj quam
+adj que
+adj qui
+adj quidam
+adj sconj
+adj sum
+adj verb
+adp adj
+adp det
+adp hic
+adp is
+adp noun
+adp propn
+adp qui
+adp verb
+adv ab
+adv ad
+adv adj
+adv adp
+adv adv
+adv atque
+adv cconj
+adv cum
+adv de
+adv det
+adv et
+adv ex
+adv hic
+adv in
+adv is
+adv non
+adv noun
+adv part
+adv pron
+adv propn
+adv que
+adv qui
+adv sconj
+adv sum
+adv ut
+adv verb
+atque adj
+atque adv
+atque det
+atque noun
+atque verb
+cconj adj
+cconj adp
+cconj adv
+cconj det
+cconj noun
+cconj verb
+cum adj
+cum det
+cum noun
+de adj
+de det
+de is
+de noun
+de propn
+de qui
+de verb
+det adj
+det adp
+det adv
+det de
+det det
+det in
+det is
+det noun
+det part
+det propn
+det que
+det qui
+det sum
+det verb
+et adj
+et adp
+et adv
+et de
+et det
+et hic
+et in
+et is
+et noun
+et pron
+et propn
+et qui
+et sconj
+et verb
+ex adj
+ex noun
+hic adj
+hic adv
+hic det
+hic noun
+hic part
+hic sum
+hic verb
+in adj
+in det
+in hic
+in is
+in noun
+in num
+in propn
+in qui
+in verb
+is adj
+is adv
+is det
+is noun
+is que
+is qui
+is verb
+non adj
+non adv
+non noun
+non possum
+non sum
+non verb
+noun ab
+noun ad
+noun adj
+noun adp
+noun adv
+noun atque
+noun aux
+noun cconj
+noun cum
+noun de
+noun det
+noun et
+noun ex
+noun hic
+noun in
+noun is
+noun non
+noun noun
+noun num
+noun part
+noun possum
+noun pron
+noun propn
+noun quam
+noun que
+noun qui
+noun quidam
+noun sconj
+noun sui
+noun sum
+noun suus
+noun ut
+noun verb
+num adj
+num adv
+num noun
+num verb
+part adj
+part adv
+part det
+part in
+part noun
+part verb
+possum verb
+pron adj
+pron adv
+pron noun
+pron sum
+pron verb
+propn adj
+propn adp
+propn adv
+propn de
+propn et
+propn in
+propn noun
+propn propn
+propn qui
+propn quidam
+propn verb
+quam adj
+quam noun
+que adj
+que adv
+que det
+que in
+que noun
+que sum
+que verb
+qui ab
+qui ad
+qui adj
+qui adp
+qui adv
+qui de
+qui det
+qui in
+qui is
+qui non
+qui noun
+qui part
+qui pron
+qui propn
+qui sconj
+qui sum
+qui verb
+quidam adj
+quidam noun
+quidam verb
+sconj adj
+sconj adv
+sconj det
+sconj in
+sconj noun
+sconj sum
+sconj verb
+sui noun
+sui verb
+sum adj
+sum adp
+sum adv
+sum de
+sum det
+sum et
+sum in
+sum is
+sum noun
+sum part
+sum qui
+sum verb
+suus noun
+suus verb
+ut adj
+ut adv
+ut det
+ut noun
+ut verb
+verb ab
+verb ad
+verb adj
+verb adp
+verb adv
+verb atque
+verb aux
+verb cconj
+verb cum
+verb de
+verb det
+verb et
+verb ex
+verb hic
+verb in
+verb is
+verb non
+verb noun
+verb num
+verb part
+verb possum
+verb pron
+verb propn
+verb quam
+verb que
+verb qui
+verb sconj
+verb sui
+verb sum
+verb ut
+verb verb
+ 1
+ a
+ b
+ c
+ d
+ e
+ f
+ g
+ h
+ i
+ l
+ m
+ n
+ o
+ p
+ q
+ r
+ s
+ t
+ u
+ †
+a 
+ab
+ac
+ad
+ae
+af
+ag
+ah
+ai
+al
+am
+an
+ao
+ap
+aq
+ar
+as
+at
+au
+av
+ax
+b 
+ba
+be
+bi
+bl
+bo
+br
+bs
+bu
+c 
+ca
+cc
+ce
+ch
+ci
+cl
+cn
+co
+cr
+ct
+cu
+d 
+da
+dd
+de
+dh
+di
+dm
+do
+dr
+ds
+du
+e 
+ea
+eb
+ec
+ed
+ef
+eg
+eh
+ei
+el
+em
+en
+eo
+ep
+eq
+er
+es
+et
+eu
+ev
+ex
+fa
+fe
+ff
+fi
+fl
+fo
+fr
+fu
+ga
+ge
+gg
+gi
+gl
+gn
+go
+gr
+gu
+gy
+ha
+he
+hi
+ho
+hr
+hu
+hy
+i 
+ia
+ib
+ic
+id
+ie
+if
+ig
+ih
+ii
+il
+im
+in
+io
+ip
+iq
+ir
+is
+it
+iu
+iv
+ix
+l 
+la
+lc
+le
+lg
+li
+ll
+lm
+lo
+lp
+ls
+lt
+lu
+lx
+m 
+ma
+mb
+me
+mi
+mm
+mn
+mo
+mp
+mq
+mu
+n 
+na
+nc
+nd
+ne
+nf
+ng
+ni
+nn
+no
+nq
+ns
+nt
+nu
+nv
+o 
+oa
+ob
+oc
+od
+oe
+of
+og
+oh
+oi
+ol
+om
+on
+op
+oq
+or
+os
+ot
+ou
+ov
+ox
+pa
+pe
+ph
+pi
+pl
+po
+pp
+pr
+ps
+pt
+pu
+qu
+r 
+ra
+rb
+rc
+rd
+re
+rf
+rg
+rh
+ri
+rm
+rn
+ro
+rp
+rq
+rr
+rs
+rt
+ru
+rv
+s 
+sa
+sc
+se
+si
+sm
+so
+sp
+sq
+ss
+st
+su
+sy
+t 
+ta
+te
+th
+ti
+to
+tq
+tr
+tt
+tu
+ty
+u 
+ua
+ub
+uc
+ud
+ue
+uf
+ug
+ui
+ul
+um
+un
+uo
+up
+ur
+us
+ut
+uu
+ux
+va
+ve
+vi
+vo
+vu
+x 
+xa
+xc
+xe
+xi
+xo
+xp
+xt
+xu
+yd
+yl
+ym
+yn
+yp
+yr
+ys
+† 

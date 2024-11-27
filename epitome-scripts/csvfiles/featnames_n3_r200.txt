@@ -1,0 +1,400 @@
+ab noun verb
+ad noun adj
+ad noun noun
+ad noun verb
+adj adj noun
+adj adj verb
+adj adp adj
+adj adv noun
+adj adv verb
+adj atque adj
+adj de noun
+adj det noun
+adj et adj
+adj et noun
+adj noun adj
+adj noun adv
+adj noun atque
+adj noun et
+adj noun in
+adj noun noun
+adj noun qui
+adj noun verb
+adj sum noun
+adj verb adv
+adj verb noun
+adj verb verb
+adp adj noun
+adp noun adj
+adp noun noun
+adp noun verb
+adv adj noun
+adv adj verb
+adv adv verb
+adv de noun
+adv in noun
+adv noun adj
+adv noun noun
+adv noun verb
+adv verb adj
+adv verb adv
+adv verb noun
+adv verb sum
+adv verb verb
+atque adj noun
+atque noun noun
+atque noun verb
+cconj noun noun
+cconj noun verb
+de adj noun
+de noun adj
+de noun et
+de noun noun
+de noun verb
+det adj noun
+det adv verb
+det noun adj
+det noun adv
+det noun noun
+det noun verb
+det verb noun
+det verb verb
+et adj noun
+et noun adj
+et noun noun
+et noun verb
+hic noun noun
+hic noun verb
+in adj noun
+in adj verb
+in det noun
+in noun adj
+in noun noun
+in noun verb
+is noun noun
+is noun verb
+is verb noun
+noun ab noun
+noun ad noun
+noun adj adj
+noun adj adp
+noun adj adv
+noun adj et
+noun adj noun
+noun adj sum
+noun adj verb
+noun adp noun
+noun adv adj
+noun adv adv
+noun adv noun
+noun adv verb
+noun atque noun
+noun cconj noun
+noun de noun
+noun det noun
+noun det verb
+noun et adj
+noun et adv
+noun et det
+noun et noun
+noun in adj
+noun in noun
+noun in qui
+noun non verb
+noun noun adj
+noun noun adp
+noun noun adv
+noun noun atque
+noun noun cconj
+noun noun de
+noun noun det
+noun noun et
+noun noun in
+noun noun noun
+noun noun propn
+noun noun que
+noun noun qui
+noun noun sum
+noun noun verb
+noun propn noun
+noun propn verb
+noun qui adv
+noun qui noun
+noun qui verb
+noun sum noun
+noun sum verb
+noun suus noun
+noun verb adj
+noun verb adp
+noun verb adv
+noun verb atque
+noun verb cconj
+noun verb de
+noun verb det
+noun verb et
+noun verb in
+noun verb noun
+noun verb que
+noun verb qui
+noun verb sconj
+noun verb sum
+noun verb ut
+noun verb verb
+num noun noun
+propn adj noun
+propn noun adj
+propn noun noun
+propn noun verb
+propn propn noun
+propn propn propn
+qui adj noun
+qui adv verb
+qui noun adj
+qui noun noun
+qui noun verb
+qui verb noun
+sum adj noun
+sum noun adj
+sum noun noun
+sum noun verb
+suus noun verb
+verb ab noun
+verb ad noun
+verb adj noun
+verb adj verb
+verb adp noun
+verb adv adj
+verb adv adv
+verb adv noun
+verb adv verb
+verb de noun
+verb det noun
+verb et adv
+verb et noun
+verb in adj
+verb in noun
+verb in qui
+verb noun adj
+verb noun adv
+verb noun cconj
+verb noun det
+verb noun et
+verb noun in
+verb noun noun
+verb noun qui
+verb noun verb
+verb qui noun
+verb sconj noun
+verb sum noun
+verb sum verb
+verb verb adj
+verb verb adv
+verb verb det
+verb verb et
+verb verb in
+verb verb noun
+verb verb part
+verb verb que
+verb verb qui
+verb verb sum
+verb verb verb
+ ab
+ ad
+ al
+ an
+ at
+ au
+ ca
+ co
+ cu
+ de
+ di
+ do
+ et
+ ex
+ hi
+ in
+ is
+ li
+ ma
+ mo
+ ne
+ no
+ pa
+ pe
+ po
+ pr
+ qu
+ re
+ sc
+ se
+ si
+ su
+ te
+ ue
+ ui
+ ut
+ab 
+ad 
+ali
+am 
+anu
+ari
+as 
+ati
+atq
+atu
+cio
+co 
+com
+con
+ctu
+cul
+cus
+de 
+dem
+dic
+do 
+doc
+dus
+e a
+e i
+e p
+e s
+ect
+em 
+en 
+end
+eni
+ens
+ent
+eo 
+er 
+eri
+ero
+eru
+es 
+est
+et 
+ex 
+go 
+hic
+ia 
+ibe
+ic 
+ico
+icu
+ide
+ili
+imu
+in 
+int
+inu
+io 
+is 
+ist
+ita
+ite
+iti
+itu
+ium
+ius
+lib
+lic
+lis
+lit
+liu
+lum
+lus
+m a
+m c
+m d
+m e
+m i
+m p
+m q
+m s
+men
+mo 
+mus
+ndu
+nis
+no 
+non
+nte
+nti
+ntu
+nus
+o a
+o c
+o d
+o e
+o i
+o n
+o p
+o q
+o s
+o u
+on 
+or 
+ost
+par
+per
+pos
+pra
+pri
+pro
+qua
+que
+qui
+quo
+ra 
+rae
+rat
+res
+rim
+riu
+ro 
+s a
+s c
+s d
+s e
+s i
+s l
+s m
+s n
+s o
+s p
+s q
+s r
+s s
+s t
+s u
+sim
+sti
+sum
+sus
+tas
+tem
+ten
+ter
+tia
+tio
+tiu
+to 
+tor
+tqu
+tra
+tum
+tus
+ue 
+uer
+ui 
+uid
+uis
+ulu
+um 
+uo 
+us 
+ut 
+uus
